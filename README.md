@@ -1,2 +1,0 @@
-# adavimata
-Adavimata website
