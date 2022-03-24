@@ -1946,8 +1946,8 @@ section {
   margin-bottom: 16px;
 }
 .slide-1 {
-  background: url("../../assets/img/portfolio/BasavanaBagilu.jpg") no-repeat;
-  background-size: cover;
+  background: url("../../assets/img/slide/banner-1.jpeg") no-repeat 100% 0%;
+  background-size: cover !important;
 }
 .slide-2 {
   background: url("../../assets/img/portfolio/Gaddige2.jpg") no-repeat center
