@@ -1946,16 +1946,17 @@ section {
   margin-bottom: 16px;
 }
 .slide-1 {
-  background: url("/assets/img/portfolio/BasavanaBagilu.jpg") no-repeat;
+  background: url("../../assets/img/portfolio/BasavanaBagilu.jpg") no-repeat;
   background-size: cover;
 }
 .slide-2 {
-  background: url("/assets/img/portfolio/Gaddige2.jpg") no-repeat center center
-    fixed;
+  background: url("../../assets/img/portfolio/Gaddige2.jpg") no-repeat center
+    center fixed;
   background-size: cover !important;
 }
 
 .slide-3 {
-  background: url("/assets/img/portfolio/NewGaddige1.jpg") no-repeat 100% 0%;
+  background: url("../../assets/img/portfolio/NewGaddige1.jpg") no-repeat 100%
+    0%;
   background-size: cover;
 }
