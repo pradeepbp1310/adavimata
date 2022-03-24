@@ -109,22 +109,23 @@ h6 {
 }
 #header .logo h1 {
   font-size: 26px;
-  padding: 0 0 0 8px;
   margin: 11px 0;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  border-left: 8px solid #e96b56;
+  display: flex;
+  align-items: center;
 }
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: #545454;
   text-decoration: none;
+  padding-top: 4px;
 }
 #header .logo img {
-  padding: 0;
+  padding: 6px;
   margin: 0;
   max-height: 40px;
 }
@@ -1184,6 +1185,22 @@ section {
     max-width: 100%;
     margin: 0 auto 30px auto;
   }
+  #hero p {
+    width: 90%;
+  }
+  #hero h2 {
+    font-size: 24px;
+  }
+  .slide-1 {
+    background-size: contain;
+  }
+  .slide-2 {
+    background-size: contain;
+  }
+
+  .slide-3 {
+    background-size: contain;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1927,4 +1944,18 @@ section {
 .animate__fadeInUp {
   font-weight: bold;
   margin-bottom: 16px;
+}
+.slide-1 {
+  background: url("/assets/img/portfolio/BasavanaBagilu.jpg") no-repeat;
+  background-size: cover;
+}
+.slide-2 {
+  background: url("/assets/img/portfolio/Gaddige2.jpg") no-repeat center center
+    fixed;
+  background-size: cover !important;
+}
+
+.slide-3 {
+  background: url("/assets/img/portfolio/NewGaddige1.jpg") no-repeat 100% 0%;
+  background-size: cover;
 }
